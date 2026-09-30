@@ -59,6 +59,7 @@ return {
         layout_config = { prompt_position = "top" },
         sorting_strategy = "ascending",
         winblend = 0,
+        file_ignore_patterns = { "^build/" },
       },
     },
   },
@@ -194,4 +195,5 @@ return {
       },
     },
   },
+  
 }
